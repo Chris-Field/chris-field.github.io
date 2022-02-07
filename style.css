@@ -46,25 +46,73 @@ header h1 {
     font-size: 1.8em;
     max-width: fit-content;
     padding: 5px 20px ;
-    margin: 18px auto 0 auto;
+    margin: 18px auto 16px auto;
     border-bottom: solid 3px dimgray;
 }
 
-.objective-contact-row p {
-    margin-top: 10px;
+.objective {
+    width: 54%;
+    display: inline-block;
+    margin-right: 8%;
 }
 
-.objective {
-    width: 60%;
-    display: inline-block;
-    margin-right: 20px;
+.objective p {
+    margin-top: 0;
 }
 
 .contact {
     float: right;
     text-align: left;
+    width: 38%;
+    clear: both;
 }
 
-.contact p {
+.contact .email,.phone,.address {
     margin: 6px;
+}
+
+.contact div {
+    overflow: hidden;
+}
+
+.contact .fa {
+    width: 24px;
+    float: left;
+}
+
+.education-skills-row {
+    margin: auto;
+}
+
+.education-skills-row h3 {
+    font-size: 1.8em;
+    max-width: 90%;
+    padding: 5px 20px ;
+    margin: 18px auto 16px auto;
+}
+
+.education h3 {
+    background-color: dimgray;
+    color: white;
+}
+
+.skills h3 {
+    background-color: black;
+    color: white;
+}
+
+.education {
+    width: 47%;
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: auto;
+    border-right: solid 3px dimgray;
+
+}
+
+.skills {
+    width: 47%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: auto;
 }
