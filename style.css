@@ -1,0 +1,70 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    width: 810px;
+    height: 1024px;
+    padding: 20px;
+    background-color: white;
+    font-family: Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+header {
+    border: solid 3px gray;
+    border-style: inset;
+    position: relative;
+}
+
+header h1 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 3.3em;
+    margin-top: 20px;
+}
+
+.target-title {
+    position: absolute;
+    background-color: dimgray;
+    width: fit-content;
+    color: white;
+    text-transform: uppercase;
+    bottom: -24px;
+    padding: 10px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+
+.objective-contact-row{
+    padding-top: 20px;
+}
+
+.objective-contact-row h3 {
+    font-size: 1.8em;
+    max-width: fit-content;
+    padding: 5px 20px ;
+    margin: 18px auto 0 auto;
+    border-bottom: solid 3px dimgray;
+}
+
+.objective-contact-row p {
+    margin-top: 10px;
+}
+
+.objective {
+    width: 60%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact {
+    float: right;
+    text-align: left;
+}
+
+.contact p {
+    margin: 6px;
+}
