@@ -5,12 +5,12 @@ body {
 
 main {
     margin: auto;
-    width: 810px;
-    height: 1024px;
+    width: 840px;
+    height: 1200px;
     padding: 20px;
     background-color: white;
     font-family: Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 
 header {
