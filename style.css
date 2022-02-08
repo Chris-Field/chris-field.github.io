@@ -10,6 +10,7 @@ main {
     padding: 20px;
     background-color: white;
     font-family: Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 0.95em;
 }
 
 header {
@@ -40,18 +41,19 @@ header h1 {
 
 .objective-contact-row{
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .objective-contact-row h3 {
-    font-size: 1.8em;
+    font-size: 1.6em;
     max-width: fit-content;
     padding: 5px 20px ;
     margin: 18px auto 16px auto;
-    border-bottom: solid 3px dimgray;
+    border-bottom: solid 2px dimgray;
 }
 
 .objective {
-    width: 54%;
+    width: 57%;
     display: inline-block;
     margin-right: 8%;
 }
@@ -63,7 +65,7 @@ header h1 {
 .contact {
     float: right;
     text-align: left;
-    width: 38%;
+    width: 35%;
     clear: both;
 }
 
@@ -85,34 +87,85 @@ header h1 {
 }
 
 .education-skills-row h3 {
-    font-size: 1.8em;
+    font-size: 1.6em;
+    font-weight: 400;
     max-width: 90%;
     padding: 5px 20px ;
-    margin: 18px auto 16px auto;
+    background-color: dimgray;
+}
+
+.education-skills-row p {
+    margin: auto;
+    margin: 2px;
 }
 
 .education h3 {
-    background-color: dimgray;
     color: white;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .skills h3 {
-    background-color: black;
     color: white;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .education {
     width: 47%;
-    display: inline-block;
-    margin-right: 2%;
-    margin-left: auto;
-    border-right: solid 3px dimgray;
-
+    float: left;
+    padding-right: 20px;
+    border-right: solid 2px dimgray;
 }
 
 .skills {
     width: 47%;
     display: inline-block;
-    margin-left: 2%;
-    margin-right: auto;
+    padding-left: 16px;
+}
+
+.education h4 {
+    text-transform: uppercase;
+    margin: 4px;
+}
+
+.education p {
+    font-style: italic;
+}
+
+.experience h3 {
+    font-size: 1.6em;
+    padding: 5px 20px ;
+    margin: 18px auto 16px auto;
+    border-bottom: solid 2px dimgray;
+}
+
+.experience .date-range {
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    border-bottom: solid 2px dimgray;
+    width: 22%;
+}
+
+.job-history-entry {
+    overflow: hidden;
+    text-align: left;
+    margin-left: auto;
+    width: 73%
+}
+
+.job-history-entry h4 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.job-history-entry p {
+    margin: 0;
+    font-style: italic;
+}
+
+.job-history-entry ul {
+    margin-top: 0;
 }
